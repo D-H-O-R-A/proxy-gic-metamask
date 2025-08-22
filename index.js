@@ -3,7 +3,7 @@ const axios = require('axios');
 const app = express();
 const port = 8547;
 
-const WAVES_NODE = 'https://nodes.gscscan.com/eth';
+const WAVES_NODE = 'http://127.0.0.1:6869/eth';
 
 app.use(express.json());
 
